@@ -8,7 +8,7 @@ export default function NavBar() {
     <div className="relative h-screen text-white">
       <img src={house} alt="Background of a house with a chimney" className="object-cover w-full h-full brightness-50" />
 
-      <div className="absolute top-4 md:top-8 flex flex-col md:flex-row md:gap-6 font-bold mx-auto ">
+      <div className="absolute left-60 top-4 md:top-8 flex flex-col md:flex-row md:gap-6 font-bold  ">
         <Link to="/">Home</Link>
         <Link to="About">About us</Link>
         <Link to="Services">Services</Link>
