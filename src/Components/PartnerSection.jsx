@@ -6,7 +6,7 @@ import radiant from "../Assets/Images/radiant.jpeg";
 
 const PartnerSection = () => {
   return (
-    <div className="dark:bg-[#045501] py-3 mb-6">
+    <div className="bg-[#045501] py-3 mb-6">
       <div className="ml-20 px-5">
         <h1 className="text-white font-bold text-2xl pt-4 mb-8">
           What People Say

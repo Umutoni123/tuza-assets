@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     // <!-- Footer container -->
 <footer
-  class="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-[#045501] dark:text-white lg:text-left">
+  class="flex flex-col items-center text-center text-surface bg-[#045501] dark:text-white lg:text-left">
   <div class="container p-6">
     <div class="grid place-items-center md:grid-cols-2 lg:grid-cols-4">
       {/* <!-- First links section --> */}
