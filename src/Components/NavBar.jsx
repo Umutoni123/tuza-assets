@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import house from "../Assets/Images/house.jpeg";
 import LockCard from "../Cards/LockCard";
-//import Logo from "../Assets/Logo";
 import Language from "./Language";
 import logo from "../Assets/Images/Rectangle 2.jpg";
 
@@ -12,12 +11,11 @@ export default function NavBar() {
     <div className="relative h-screen text-white">
       <img src={house} alt="Background of a house with a chimney" className="object-cover w-full h-full brightness-50" />
 
-      <div className="absolute top-4 md:top-8 flex justify-between items-center md:flex-row md:gap-6 font-bold">
+      <div className="absolute top-4 left-16 md:top-8 flex justify-between items-center md:flex-row md:gap-4 font-bold">
         <div>
-          {/* <Logo/> */}
-          <img src={logo} alt="" />
+          <img src={logo} alt="" className="px-4"/>
         </div>
-        <div className="flex gap-8">
+        <div className="flex gap-4 lg:gap-8 text-sm lg:text-xl uppercase">
         <Link to="/">Home</Link>
         <Link to="About">About us</Link>
         <Link to="Services">Services</Link>
@@ -32,9 +30,9 @@ export default function NavBar() {
       </div>
 
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-5">Tuza assets ltd</h1>
-        <h2 className="text-6xl bold md:text-2xl">
-          Propety Managment for Rwandan Diaspora and <br /> for the Diplomates
+        <h1 className="text-4xl md:text-6xl font-bold py-8">Tuza Assets ltd</h1>
+        <h2 className="text-2xl bold lg:text-[34px]">
+          Property Managment for Rwandan Diaspora and <br /> for the Diplomates
           in Rwanda
         </h2>
         <LockCard/>

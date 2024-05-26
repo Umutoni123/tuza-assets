@@ -22,9 +22,11 @@ const PartnerSection = () => {
           Our Partners
         </div>
         <div className="flex gap-4 p-3">
-          <img src={radiant} alt="radiant" className="w-24 h-24" />
+          <img src={equity} alt="equity" className="w-32 h-24" />
+          <img src={radiant} alt="radiant" className="w-28 h-24" />
           <img src={bk} alt="bk" className="w-24 h-24" />
           <img src={equity} alt="equity" className="w-24 h-242" />
+          <img src={bk} alt="bk" className="w-28 h-24" />
         </div>
       </div>
     </div>
