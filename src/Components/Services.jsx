@@ -45,23 +45,31 @@ const Services = () => {
               </span>
               <div>
                 <h3 className="font-semibold text-xl"> Plots and Houses</h3>
-                <p className="mt-1 text-gray-300 opacity-0 group-hover:opacity-100">
-                  You don't need to be an expert to use our plugin. Our
-                  expressive API is readable and well documented.
-                </p>
+                
+                <ul className="mt-1 text-gray-300 opacity-0 group-hover:opacity-100">
+              <li>Property Biding</li>
+              <li>Houses for rent</li>
+              <li>Houses for sale</li>
+              <li>Property listings</li>
+              <li>Design and construction</li>
+            </ul>
+                
               </div>
             </div>
 
-            <div className="flex gap-4 items-start flex-col group">
+            <div className="flex  gap-4 items-start flex-col group">
               <span className="text-violet-600 bg-violet-500/10 p-3 rounded-full">
                 {/* <FontAwesomeIcon icon={faLock} className="w-5 h-5" /> */}
               </span>
               <div>
                 <h3 className="font-semibold text-xl">Fund and Security</h3>
-                <p className="mt-1 text-gray-300 opacity-0 group-hover:opacity-100">
-                  You can make sure your website or app is highly performant
-                  with a built-in system to help you optimize.
-                </p>
+                <ul className="mt-1 text-gray-300 opacity-0 group-hover:opacity-100">
+              <li>Property Biding</li>
+              <li>Houses for rent</li>
+              <li>Houses for sale</li>
+              <li>Property listings</li>
+              <li>Design and construction</li>
+            </ul>
               </div>
             </div>
 
@@ -71,10 +79,13 @@ const Services = () => {
               </span>
               <div>
                 <h3 className="font-semibold text-xl">Real estate in Rwanda </h3>
-                <p className="mt-1 text-gray-300 opacity-0 group-hover:opacity-100">
-                  Our plugins do not have any external dependencies so our
-                  plugin has the minimal footprint possible. Property binding
-                </p>
+                <ul className="mt-1 text-gray-300 opacity-0 group-hover:opacity-100">
+              <li>Property Biding</li>
+              <li>Houses for rent</li>
+              <li>Houses for sale</li>
+              <li>Property listings</li>
+              <li>Design and construction</li>
+            </ul>
               </div>
             </div>
           </div>
